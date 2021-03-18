@@ -1,0 +1,72 @@
+/* top nav bar */
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+  text-decoration: none;
+}
+
+#nav {
+  display: block;
+  background-color: olive;
+  display: inline-block;
+  width: 95vw;
+  border: 5px solid olive;
+  border-radius: 5px;
+  margin: 8px;
+  padding: 10px;
+}
+
+/* body of quiz */
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: cornsilk;
+}
+
+#quizBody {
+  text-align: center;
+  color: gray;
+}
+
+h4 {
+  padding: 10px 8px 10px 8px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* button styling */
+button {
+  border: none;
+  background-color: olive;
+  color: black;
+  border-radius: 5px;
+  padding: 10px 16px 10px 16px;
+  font-size: 17px;
+  font-family: "Montserrat", sans-serif;
+  margin: 4px;
+}
+
+button:hover {
+  transition-duration: 0.4s;
+  background-color: #ff80a4;
+}
+
+#quiz {
+  text-align: center;
+}
+
+/* highscore form */
+#name{
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  border-width: 1px;
+  border-radius: 4px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
