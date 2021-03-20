@@ -3,17 +3,12 @@
   float: right;
 }
 
-.left {
-  float: left;
-  text-decoration: none;
-}
-
 #nav {
   display: block;
-  background-color: olive;
+  background-color: red;
   display: inline-block;
   width: 95vw;
-  border: 5px solid olive;
+  border: 5px solid red;
   border-radius: 5px;
   margin: 8px;
   padding: 10px;
@@ -28,11 +23,13 @@ body {
 
 #quizBody {
   text-align: center;
-  color: gray;
+  color: black;
+  font-size: 35px;
 }
 
 h4 {
   padding: 10px 8px 10px 8px;
+  font-size: 25px;
 }
 
 a {
@@ -43,18 +40,19 @@ a {
 /* button styling */
 button {
   border: none;
-  background-color: olive;
+  background-color: red;
   color: black;
   border-radius: 5px;
   padding: 10px 16px 10px 16px;
-  font-size: 17px;
-  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-family: 'Bangers',
+    cursive;
   margin: 4px;
 }
 
 button:hover {
   transition-duration: 0.4s;
-  background-color: #ff80a4;
+  background-color: #ff2400;
 }
 
 #quiz {
@@ -63,7 +61,8 @@ button:hover {
 
 /* highscore form */
 #name {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Bangers',
+    cursive;
   font-weight: bolder;
   border-width: 1px;
   border-radius: 4px;
