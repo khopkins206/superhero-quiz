@@ -6,51 +6,49 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
   <title>Javascript Quiz</title>
 </head>
 
 <body>
   <!-- header -->
-    <div id="nav">
+  <div id="nav">
 
-      <!-- view scores link on the top left of nav bar-->
-      <div class="right">
-        <a onclick="getScore()" href="#">
-          <h4>View Highscores</h4>
-        </a>
-      </div>
-
-      <!-- countdown timer on the top right of nav bar-->
-      <div class="left">
-        <h4>Time: <span id="timeLeft">0</span></h4>
-      </div>
+    <!-- view scores link on the top left of nav bar-->
+    <div class="right">
+      <a onclick="getScore()" href="#">
+        <h4>View Results</h4>
+      </a>
     </div>
 
-    <!--main body of quiz-->
-    <div id="quiz">
+  </div>
 
-      <div id="quizBody">
+  <!--main body of quiz-->
+  <div id="quiz">
 
-        <h1>
-          JavaScript Quiz!
-        </h1>
+    <div id="quizBody">
 
-        <h3>
-          You will have 60 seconds to complete this quiz.
-          <br>
-          For each wrong answer, you will lose 10 seconds to your timer. For each right answer, you will add 15 seconds. 
-          <br>
-          You can record your score at the end of your quiz. 
-          <br>
-          Good luck!
-        </h3>
+      <h1>
+        Superhero Quiz!
+      </h1>
 
-        <button onclick="start()">Start Quiz!</button>
+      <h3>
+        Do you want to know which Superhero you relate to?
+        <br>
+        Go through the quiz and answer each question honestly. At the end of the quiz, you will see your superhero
+        match!
+        <br>
+        You will also have a link to the bio of your superhero and somoe YouTube videos!
+        <br>
+        Good luck!
+      </h3>
 
-      </div>
+      <button onclick="start()">Start Quiz!</button>
+
     </div>
-  </body>
-  <script type="text/javascript" src="js/style.js"></script>
+  </div>
+</body>
+<script type="text/javascript" src="js/script.js"></script>
 
 </html>

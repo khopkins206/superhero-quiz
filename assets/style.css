@@ -21,7 +21,8 @@
 
 /* body of quiz */
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Bangers',
+    cursive;
   background-color: cornsilk;
 }
 
@@ -61,7 +62,7 @@ button:hover {
 }
 
 /* highscore form */
-#name{
+#name {
   font-family: "Montserrat", sans-serif;
   font-weight: bolder;
   border-width: 1px;
