@@ -3,6 +3,11 @@
   float: right;
 }
 
+.center{
+  display: flex;
+  justify-content: center;
+}
+
 #nav {
   display: block;
   background-color: red;
@@ -18,7 +23,7 @@
 body {
   font-family: 'Bangers',
     cursive;
-  background-color: cornsilk;
+  background-color: #f5f5f5;
 }
 
 #quizBody {
@@ -30,6 +35,15 @@ body {
 h4 {
   padding: 10px 8px 10px 8px;
   font-size: 25px;
+}
+
+h4:hover {
+  transition-duration: 0.4s;
+  color: gold;
+
+}
+.center h4{
+  font-size: 45px;
 }
 
 a {
@@ -52,7 +66,7 @@ button {
 
 button:hover {
   transition-duration: 0.4s;
-  background-color: #ff2400;
+  background-color: gold;
 }
 
 #quiz {
