@@ -10,7 +10,7 @@
 
 #nav {
   display: block;
-  background-color: red;
+  background-color: purple;
   display: inline-block;
   width: 95vw;
   border: 5px solid red;
@@ -64,9 +64,10 @@ a {
   margin: 4px;
 }
 
-button:hover {
+#startBtn:hover {
   transition-duration: 0.4s;
   background-color: gold;
+  cursor: pointer;
 }
 
 #quiz {
