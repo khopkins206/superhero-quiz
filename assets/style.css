@@ -52,7 +52,7 @@ a {
 }
 
 /* button styling */
-button {
+#startBtn {
   border: none;
   background-color: red;
   color: black;
