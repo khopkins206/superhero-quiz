@@ -55,6 +55,8 @@ font-size: 28px;
 font-family: 'Bangers',
 cursive;
 margin: 4px;
+cursor: pointer;
+
 }
 
 #resultsContainer{
@@ -77,4 +79,10 @@ align-items: center;
     font-family: 'Bangers',
         cursive;
     margin: 4px;
+}
+
+#resultsBtn:hover {
+    transition-duration: 0.4s;
+    background-color: gold;
+    cursor: pointer;
 }
