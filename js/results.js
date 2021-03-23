@@ -1,7 +1,7 @@
 var giphyURL = 'api.giphy.com/v1/gifs/search?q=';
 var apiKey = '&api_key=AWwznVdkteMbede08IgpvYKtgcQztryP'; 
 var superhero = "Black Widow";
-var imgEl = document.getElementById("Gif")
+var imgEl = document.getElementById("giphy-1-link")
 
 
 
@@ -11,9 +11,9 @@ var imgEl = document.getElementById("Gif")
         fetch(apiUrl).then(function (response) {
           if (response.ok) {
             response.json().then(function (data) {
-              var useThis = data.data[0].images.original.url
+              var giphy = data.data[0].images.original.url
                 console.log(response)
-                imgEl.setAttribute("src", useThis);
+                imgEl.setAttribute("src", giphy);
             });
           } else {
             alert('Error: ' + response.statusText);
