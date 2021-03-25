@@ -137,11 +137,10 @@ a {
     transition-duration: 0.4s;
     background-color: gold;
     cursor: pointer;
-    display:none;
 }
+
 .hideBtn{
 
     display: none;
 
 }
-

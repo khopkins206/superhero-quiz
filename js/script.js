@@ -40,13 +40,13 @@ var questions = [{
 },
 {
 
-    question: 'There is 30 people in a train about to run in to a wall, how do you top it?',
+    question: 'There are 30 people on a train that\'s about to run in to a wall, how do you stop it?',
     answers: [
         { text: 'try and throw the train off the tracks', value: "Hulk" },
         { text: 'try and find a way to hack the train system and stop it', value: "Black Widow" },
         { text: 'stand in front of train and try and deflect it', value: "Vision" },
         { text: 'try to get to the front and pull the breaks', value: "Captin America" },
-        { text: 'try and rescue loads of people at a time', value: 'Spider Man' }
+        { text: 'try to rescue a lot of people at a time', value: 'Spider Man' }
     ]
 },
 {
@@ -75,11 +75,11 @@ var questions = [{
 },
 {
 
-    question: 'What will you do if someone not treated fairly',
+    question: 'What will you do if someone is not treated fairly?',
     answers: [
         { text: 'Resolve it your way ', value: "Hulk" },
         { text: 'Seek amicable resolution', value: "Black Widow" },
-        { text: 'make the other person apologies', value: "Vision" },
+        { text: 'Make the other person apologize', value: "Vision" },
         { text: 'Make Peace', value: "Captin America" },
         { text: 'Seek revenge', value: 'Spider Man' }
 

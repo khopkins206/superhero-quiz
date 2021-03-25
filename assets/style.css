@@ -83,3 +83,21 @@ a {
   padding-top: 5px;
   padding-bottom: 5px;
 }
+
+#restartBtn {
+  border: none;
+  background-color: red;
+  color: black;
+  border-radius: 5px;
+  padding: 10px 16px 10px 16px;
+  font-size: 28px;
+  font-family: 'Bangers',
+    cursive;
+  margin: 4px;
+}
+
+#restartBtn:hover {
+  transition-duration: 0.4s;
+  background-color: gold;
+  cursor: pointer;
+}
