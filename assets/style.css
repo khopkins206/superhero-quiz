@@ -65,9 +65,7 @@ a {
 }
 
 #startBtn:hover {
-  transition-duration: 0.4s;
   background-color: gold;
-  cursor: pointer;
 }
 
 #quiz {

@@ -5,13 +5,15 @@ var imgEl = document.getElementById("giphy-1-link")
 var resultNameEl = document.getElementById("results-name")
 
 
-var h1Name = localStorage.getItem("superheroName")
-console.log(h1Name);
-resultNameEl.innerHTML = h1Name;
+var superhero = localStorage.getItem("superheroName")
+
+resultNameEl.innerHTML = superhero;
 
 
-var queryString = document.location.search;
-var superhero = queryString.split('=')[1];
+// var queryString = document.location.search;
+// var superhero = queryString.split('=')[1];
+
+// superhero = h1Name;
 
 console.log(superhero);
 
