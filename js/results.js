@@ -51,3 +51,5 @@ var imgEl = document.getElementById("Gif")
     }
     
     getVideo();
+
+    
