@@ -51,3 +51,5 @@ var imgEl = document.getElementById("giphy-1-link")
     }
     
     getVideo();
+
+    
