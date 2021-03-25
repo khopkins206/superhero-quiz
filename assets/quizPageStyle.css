@@ -121,7 +121,7 @@ a {
     align-items: center;
 }
 
-#resultsBtn {
+.showBtn {
     border: none;
     background-color: red;
     color: black;
@@ -131,11 +131,17 @@ a {
     font-family: 'Bangers',
         cursive;
     margin: 4px;
-
 }
 
-#resultsBtn:hover {
+.showBtn:hover {
     transition-duration: 0.4s;
     background-color: gold;
     cursor: pointer;
+    display:none;
 }
+.hideBtn{
+
+    display: none;
+
+}
+
