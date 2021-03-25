@@ -187,6 +187,7 @@ function show(g) {
     resultsBtn.classList.add('showBtn')
 
     resultsBtn.setAttribute('href', 'results.html?answer=' + g)
+    localStorage.setItem("superheroName", g)
 
 
 }
