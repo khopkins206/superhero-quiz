@@ -17,10 +17,9 @@ SO THAT I can learn more about them
 
 ## Wireframe
 
-[Wireframe.docx](https://github.com/kjackson206/superhero-quiz/files/6145813/Wireframe.docx)
+<img src="assets/images/wireframe.png">
 
 
 ## User Flow Diagram
 
-[Flow chart.docx](https://github.com/kjackson206/superhero-quiz/files/6145816/Flow.chart.docx)
- <!-- hello -->
+<img src="assets/images/user-flow.png">
