@@ -7,43 +7,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+  </style>
+  <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css" media="screen,projection" />
+  <link rel="stylesheet" href="assets/results.css">
   <title>Superhero Quiz</title>
 </head>
 
 <body>
   <!-- header -->
-  <div id="nav">
+  <div id="head" class="z-depth-3">
 
     <!-- view scores link on the top left of nav bar-->
-    <div class="center">
-      <h4>Your Results Are:</h4>
+    <div class="center" >
+      <h4>Your superhero is:</h4>
+    </div>
+    <div>
       <h1 id="results-name"></h1>
     </div>
 
   </div>
 
   <!--main body of quiz-->
-  <div id="quiz">
+  <div id="quiz" class="row">
 
     <div id="quizBody">
 
-      
-
-      <h3>
+      <div id="giphy-container" class="col s6 ">
         <img id="giphy-1-link">
-        <br>
+      </div>
+
+      <div id="youtube-container" class="col s6 ">
         <iframe id="youtube-1-link"></iframe>
-        <br>
-        <link id="marvel-bio-link">
-      </h3>
-    </div>
+      </div>
+
+      <!-- restart button -->
+    </div id="restart-container" class="btn">
     <a id="restartBtn" href="index.html" <button>Restart Quiz</button> </a>
-    </div>
   </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/results.js"></script>
+
 </body>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script type="text/javascript" src="js/results.js"></script>
+
 
 </html>
