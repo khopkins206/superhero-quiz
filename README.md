@@ -31,4 +31,4 @@ AJAX
 
 ## Link to Deployed Site
 
-<link href="https://kjackson206.github.io/superhero-quiz/">
+https://kjackson206.github.io/superhero-quiz/"
