@@ -5,19 +5,23 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/style.css">
+
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
-  <title>Superhero Quiz</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+  </style>
+  <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css" media="screen,projection" />
+  <link rel="stylesheet" href="assets/style.css">
+  <title>Marvel Superhero Quiz</title>
 </head>
 
 <body>
   <!-- header -->
-  <div id="nav">
+  <div id="head" class="z-depth-3">
 
     <!-- view scores link on the top left of nav bar-->
     <div class="right">
-      <a id ="result-check">
+      <a id="result-check">
         <h4>View Results</h4>
       </a>
     </div>
@@ -44,11 +48,16 @@
         Good luck!
       </h3>
 
-      <a id="startBtn" href="quizPage.html"> <button>Start Quiz!</button> </a>
+      <a href="quizPage.html"> <button id="startBtn">Start Quiz!</button> </a>
 
     </div>
   </div>
+
+  <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+
 </body>
-<script type="text/javascript" src="js/index.js"></script>
+
+
 
 </html>

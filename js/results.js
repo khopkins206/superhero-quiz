@@ -43,7 +43,7 @@ console.log(superhero);
               key: 'AIzaSyC30CwUT3GBRL3Gc05HvVMVdAc4MmwHgGI',
               q: superhero,
               part: 'snippet',
-              maxResults: 2,
+              maxResults: 1,
               type: 'video', 
               dataType: 'jsonp',
               videoEmbeddable: true,

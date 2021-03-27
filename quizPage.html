@@ -5,35 +5,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+    </style>
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css" media="screen,projection" />
     <link rel="stylesheet" href="./assets/quizPageStyle.css">
-    <title>Superhero</title>
+    <title>Marvel Superhero Quiz</title>
 </head>
 
 <body>
-    <header id="quizBodyHead"> Who Will You Be Most Like?</header>
+    <div id="head" class="z-depth-3">
+
+    <!-- view scores link on the top left of nav bar-->
+    <div class="center">
+      <a id="result-check">
+        <h4>Choose the most accurate answer</h4>
+      </a>
+    </div>
+
+  </div>
 
     <div class='quizBox'>
 
         <div id='quizQuestion'>
 
-            <p id='quizQ'>  </p>  
+            <p id='quizQ'> </p>
 
         </div>
 
-        <div class='answerBox'> 
-            <button id='answer1' class='answer'>  </button>
+        <div class='answerBox'>
+            <button id='answer1' class='answer'> </button>
             <button id='answer2' class='answer'>two</button>
             <button id='answer3' class='answer'>three</button>
             <button id='answer4' class='answer'>four</button>
             <button id='answer5' class='answer'>five</button>
         </div>
     </div>
-<!-- see results button to results page -->
-<div id="resultsContainer"  >
-     <a id="resultsBtn"  class="hideBtn" href="results.html">  See Results! </a>
-</div>
+    <!-- see results button to results page -->
+    <div id="resultsContainer">
+        <a id="resultsBtn" class="hideBtn" href="results.html"> See Results! </a>
+    </div>
+
+    <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
     <script src='./js/script.js'></script>
+
 </body>
 
 </html>
